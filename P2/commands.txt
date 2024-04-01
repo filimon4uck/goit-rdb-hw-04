@@ -1,0 +1,22 @@
+INSERT INTO authors VALUES(1, 'William Shakespeare');
+INSERT INTO authors VALUES(2, 'Agatha Christie');
+INSERT INTO authors VALUES(3, 'Barbara Cartland');
+
+
+INSERT INTO genres VALUES(1, 'poetry');
+INSERT INTO genres VALUES(2, 'detective');
+INSERT INTO genres VALUES(3, 'novel');
+
+
+INSERT INTO books VALUES(1, 'Romeo and Juliet',1997,1,1);
+INSERT INTO books VALUES(2, 'Hercule Poirot',1930,2,2);
+INSERT INTO books VALUES(3, 'The Black Moth',1921,3,3);
+
+
+INSERT INTO users VALUES(1, 'John Wick','john@gmail.com');
+INSERT INTO users VALUES(2, 'Harry Potter','potter@gmail.com');
+INSERT INTO users VALUES(3, 'Jack Reacher','reacher@gmail.com');
+
+INSERT INTO borrowed_books VALUES(1, 1,1,'2024-02-02','2024-02-23');
+INSERT INTO borrowed_books VALUES(2, 2,2,'2024-03-04','2024-03-25');
+INSERT INTO borrowed_books VALUES(3, 3,3,'2024-01-06','2024-02-25');
